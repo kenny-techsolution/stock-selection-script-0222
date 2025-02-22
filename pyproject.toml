@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "stock-selection-script-0222"
+version = "0.1.0"
+description = ""
+authors = ["Kenny Chung <kennychung.techsolution@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.0"
+pandas = "^2.2.3"
+numpy = "^2.2.3"
+yfinance = "^0.2.54"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
